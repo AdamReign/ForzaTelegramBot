@@ -1,0 +1,12 @@
+# Log file
+*.log
+
+# Compiled resources
+target
+
+# Tests
+test
+
+# IDEA files
+.idea
+*.iml
