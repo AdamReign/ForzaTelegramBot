@@ -4,8 +4,8 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 public class Bot extends TelegramLongPollingBot {
-    private static final String TOKEN = "1900692224:AAH2tnQoAwvs_qPlM5ZbdLPXK7F0s8E7jAc";
-    private static final String USERNAME = "ForzaAssistantBot";
+    private static final String TOKEN = System.getenv("TOKEN");
+    private static final String USERNAME = System.getenv("USERNAME");
     public Update update;
 
     @Override
