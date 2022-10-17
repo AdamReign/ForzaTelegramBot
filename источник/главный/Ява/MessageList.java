@@ -39,7 +39,7 @@ public class MessageList {
         rowInline2.add(button2);
         rowsInline.add(rowInline2);
 
-        // Все кнопки строчки 2
+        // Все кнопки строчки 3
         List<InlineKeyboardButton> rowInline3 = new ArrayList<>();
         InlineKeyboardButton button3 = new InlineKeyboardButton();
         button3.setText("FAQ");
@@ -80,7 +80,7 @@ public class MessageList {
         rowInline2.add(button2);
         rowsInline.add(rowInline2);
 
-        // Все кнопки строчки 2
+        // Все кнопки строчки 3
         List<InlineKeyboardButton> rowInline3 = new ArrayList<>();
         InlineKeyboardButton button3 = new InlineKeyboardButton();
         button3.setText("FAQ");
